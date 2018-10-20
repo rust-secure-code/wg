@@ -17,10 +17,9 @@ We have the following goals for the Rust language and ecosystem:
 
 ## Contact
 
-Our official chat is the [#wg-secure-code Zulip stream].
-
-Follow us on Twitter at [@rustsecurecode].
+- **Zulip**: Our official chat is the [#wg-secure-code Zulip stream].
+- **Twitter**: Follow us at [@rustsecurecode].
 
 [issue tracker]: https://github.com/rust-secure-code/wg/issues
-[#wg-secure-code Zulip stream]: https://rust-lang.zulipchat.com/#narrow/stream/146229-wg-secure-code).
+[#wg-secure-code Zulip stream]: https://rust-lang.zulipchat.com/#narrow/stream/146229-wg-secure-code
 [@rustsecurecode]: https://twitter.com/rustsecurecode
