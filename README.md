@@ -3,8 +3,6 @@
 This repository is the central [issue tracker] used by the Secure Code WG to
 coordinate efforts towards promoting secure code development in Rust.
 
-[issue tracker]: https://github.com/rust-secure-code/wg/issues
-
 ## Mission
 
 Our mission is to make it easy to write secure code in Rust.
@@ -19,5 +17,10 @@ We have the following goals for the Rust language and ecosystem:
 
 ## Contact
 
-Our official chat is the [#wg-secure-code Zulip
-stream](https://rust-lang.zulipchat.com/#narrow/stream/146229-wg-secure-code).
+Our official chat is the [#wg-secure-code Zulip stream].
+
+Follow us on Twitter at [@rustsecurecode].
+
+[issue tracker]: https://github.com/rust-secure-code/wg/issues
+[#wg-secure-code Zulip stream]: https://rust-lang.zulipchat.com/#narrow/stream/146229-wg-secure-code).
+[@rustsecurecode]: https://twitter.com/rustsecurecode
