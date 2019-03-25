@@ -14,6 +14,9 @@ We have the following goals for the Rust language and ecosystem:
 - It should be clear to programmers how to perform security-sensitive tasks.
 - Security-critical code which is relied on by Rust programmers should be bug
   free.
+  
+## Projects
+We maintain a list of security-related projects which can be found [here](Projects.md)
 
 ## Contact
 
