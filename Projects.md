@@ -1,11 +1,15 @@
 # List of security-related projects
+
+This page contains a list of security-related projects.
+If you own or have knowledge of any projects that should be added to this list,
+please [create a PR](https://github.com/rust-secure-code/wg/pulls) or [open an issue](https://github.com/rust-secure-code/wg/issues)!
+
 ---
 # Fuzzers
 |     Name     |                Repository               |                               Description                              |
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
 |  Cargo Fuzz  |  https://github.com/rust-fuzz/cargo-fuzz  | Command-line wrapper for using libFuzzer. Easy to use, no need to recompile LLVM! |
-|  Libdiffuzz  |   https://github.com/Shnatsel/libdiffuzz  | This is a drop-in replacement for OS memory allocator that can be used to detect uses of uninitialized memory. It is designed to be used in case Memory Sanitizer is not applicable for some reason. |
-|    Angora    |   https://github.com/AngoraFuzzer/Angora  | Angora is a mutation-based coverage guided fuzzer. The main goal of Angora is to increase branch coverage by solving path constraints without symbolic execution. |
+|    Angora    |   https://github.com/AngoraFuzzer/Angora  | Angora is a mutation-based coverage guided fuzzer. The main goal of Angora is to increase branch coverage by solving path constraints without symbolic execution. It currently doesn't work with Rust but there are plans to add support in the future.|
 | honggfuzz-rs | https://github.com/rust-fuzz/honggfuzz-rs | A fuzzer developed by Google. |
 | afl.rs       | https://github.com/rust-fuzz/afl.rs       | Allows one to run the AFL fuzzer on code written in the Rust programming language.                                                                                                                   |
 | QuickCheck   | https://github.com/BurntSushi/quickcheck  | QuickCheck is a way to do property based testing using randomly generated input.                                                                                                                     |
@@ -48,14 +52,10 @@
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
 | MIRAI | https://github.com/facebookexperimental/MIRAI | Mirai is an abstract interpreter for the Rust compiler's mid-level intermediate representation (MIR). It is intended to become a widely used static analysis tool for Rust.                 |
 | MIRI  | https://github.com/rust-lang/miri             | An experimental interpreter for Rust's mid-level intermediate representation (MIR). It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. |
+| libdiffuzz  |   https://github.com/Shnatsel/libdiffuzz  | This is a drop-in replacement for OS memory allocator that can be used to detect uses of uninitialized memory. It is designed to be used in case Memory Sanitizer is not applicable for some reason. |
+| rust-san | https://github.com/japaric/rust-san | Provides sanitizers for checking uninitialized memory access, uses of freed memory, memory leaks and data races between threads. |
 ---
 # Code Review
 |     Name     |                Repository               |                               Description                              |
 |:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
 | Cargo Crev | https://github.com/dpc/crev | crev is an code review system as opposed to typically practiced code-change review system. |
----
-# Security Maintainance
-|     Name     |                Repository               |                               Description                              |
-|:------------:|:---------------------------------------:|:----------------------------------------------------------------------:|
-| The Update Framework in Rust | https://github.com/heartsucker/rust-tuf | A Rust implementation of  The Update Framework. |
-
