@@ -18,7 +18,8 @@ We have the following goals for the Rust language and ecosystem:
   free.
   
 ## Projects
-We maintain a list of security-related projects which can be found [here](https://github.com/rust-secure-code/rustsec-projects).
+
+We maintain a [list of security-related projects](https://github.com/rust-secure-code/projects).
 
 ## Contact
 
