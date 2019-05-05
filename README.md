@@ -1,5 +1,7 @@
 # Rust Secure Code Working Group
 
+![Hermit Ferris](https://avatars2.githubusercontent.com/u/44121472?s=230)
+
 This repository is the central [issue tracker] used by the Secure Code WG to
 coordinate efforts towards promoting secure code development in Rust.
 
