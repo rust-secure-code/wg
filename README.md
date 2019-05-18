@@ -19,7 +19,10 @@ We have the following goals for the Rust language and ecosystem:
   
 ## Projects
 
-We maintain a [list of security-related projects](https://github.com/rust-secure-code/projects).
+- [cargo-audit]: Audit Rust projects for vulnerable dependencies sourced from the [RustSec Advisory Database][rustsec].
+- [cargo-repro]: Build and verify byte-for-byte reproducible Rust packages using a Cargo-based workflow.
+- [cargo-sandbox]: Perform Cargo builds inside of a sandboxed environment.
+- We also maintain a [list of security-related projects][projects].
 
 ## Contact
 
@@ -27,5 +30,10 @@ We maintain a [list of security-related projects](https://github.com/rust-secure
 - **Twitter**: Follow us at [@rustsecurecode].
 
 [issue tracker]: https://github.com/rust-secure-code/wg/issues
+[cargo-audit]: https://github.com/rustsec/cargo-audit
+[cargo-repro]: https://github.com/rust-secure-code/cargo-repro
+[cargo-sandbox]: https://github.com/rust-secure-code/cargo-sandbox
+[rustsec]: https://rustsec.org
+[projects]: https://github.com/rust-secure-code/projects
 [#wg-secure-code Zulip stream]: https://rust-lang.zulipchat.com/#narrow/stream/146229-wg-secure-code
 [@rustsecurecode]: https://twitter.com/rustsecurecode
