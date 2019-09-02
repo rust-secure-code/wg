@@ -34,6 +34,7 @@ We have the following goals for the Rust language and ecosystem:
 [cargo-audit]: https://github.com/rustsec/cargo-audit
 [cargo-repro]: https://github.com/rust-secure-code/cargo-repro
 [cargo-sandbox]: https://github.com/rust-secure-code/cargo-sandbox
+[safety-dance]: https://github.com/rust-secure-code/safety-dance
 [rustsec]: https://rustsec.org
 [projects]: https://github.com/rust-secure-code/projects
 [#wg-secure-code Zulip stream]: https://rust-lang.zulipchat.com/#narrow/stream/146229-wg-secure-code
