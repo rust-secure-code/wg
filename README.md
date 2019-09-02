@@ -22,6 +22,7 @@ We have the following goals for the Rust language and ecosystem:
 - [cargo-audit]: Audit Rust projects for vulnerable dependencies sourced from the [RustSec Advisory Database][rustsec].
 - [cargo-repro]: Build and verify byte-for-byte reproducible Rust packages using a Cargo-based workflow.
 - [cargo-sandbox]: Perform Cargo builds inside of a sandboxed environment.
+- [safety-dance]: Auditing crates for unsafe code which can be safely replaced.
 - We also maintain a [list of security-related projects][projects].
 
 ## Contact
