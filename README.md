@@ -22,8 +22,6 @@ We have the following goals for the Rust language and ecosystem:
 - [cargo-audit]: Audit Rust projects for vulnerable dependencies sourced from the [RustSec Advisory Database][rustsec].
 - [cargo-geiger]: Gather statistics on usage of unsafe code in a Rust crate and all its dependencies.
 - [cargo-supply-chain]: Gather author, contributor and publisher data on crates in your dependency graph.
-- [cargo-repro]: Build and verify byte-for-byte reproducible Rust packages using a Cargo-based workflow.
-- [cargo-sandbox]: Perform Cargo builds inside of a sandboxed environment.
 - [safety-dance]: Auditing crates for unsafe code which can be safely replaced.
 - We also maintain a [list of security-related projects][projects].
 
@@ -36,8 +34,6 @@ We have the following goals for the Rust language and ecosystem:
 [cargo-audit]: https://github.com/rustsec/cargo-audit
 [cargo-geiger]: https://github.com/rust-secure-code/cargo-geiger
 [cargo-supply-chain]: https://github.com/rust-secure-code/cargo-supply-chain
-[cargo-repro]: https://github.com/rust-secure-code/cargo-repro
-[cargo-sandbox]: https://github.com/rust-secure-code/cargo-sandbox
 [safety-dance]: https://github.com/rust-secure-code/safety-dance
 [rustsec]: https://rustsec.org
 [projects]: https://github.com/rust-secure-code/projects
