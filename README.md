@@ -1,4 +1,4 @@
-# Rust Secure Code Working Group
+# Rust Secure Code Working Group [![Zulip Chat][https://img.shields.io/badge/zulip-join_chat-blue.svg?logo=zulipg]][#wg-secure-code Zulip stream]
 
 ![Hermit Ferris](https://avatars2.githubusercontent.com/u/44121472?s=230)
 
